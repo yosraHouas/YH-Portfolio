@@ -1,0 +1,246 @@
+[
+  {
+    "id": "1",
+    "titleKey": "projects.items.stockpro.title",
+    "descriptionKey": "projects.items.stockpro.description",
+    "technologies": [
+      { "name": "TypeScript", "image": "logo_Technologies/typescript.png" },
+      { "name": "PLpgSQL", "image": "logo_Technologies/PostgresSQL.png" },
+      { "name": "React", "image": "logo_Technologies/react.png" },
+      { "name": "Vite", "image": "logo_Technologies/vite.png" },
+      { "name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png" }
+    ],
+    "thumbnail": "projects/StockPro.gif",
+    "github": "https://github.com/yosraHouas/StockPro/",
+    "deployed": "https://yosrahouas.github.io/StockPro/",
+    "dateKey": "projects.items.stockpro.date"
+  },
+  {
+    "id": "2",
+    "titleKey": "projects.items.dayplanner.title",
+    "descriptionKey": "projects.items.dayplanner.description",
+    "technologies": [
+      { "name": "React", "image": "logo_Technologies/react.png" },
+      { "name": "Vite", "image": "logo_Technologies/vite.png" },
+      { "name": "TypeScript", "image": "logo_Technologies/typescript.png" },
+      { "name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png" }
+    ],
+    "thumbnail": "projects/DayPlanner.gif",
+    "github": "https://github.com/yosraHouas/DayPlanner/",
+    "deployed": "https://yosrahouas.github.io/DayPlanner/",
+    "dateKey": "projects.items.dayplanner.date"
+  },
+  {
+    "id": "3",
+    "titleKey": "projects.items.portfolio.title",
+    "descriptionKey": "projects.items.portfolio.description",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Vite", "image": "logo_Technologies/vite.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Email.js", "image": "logo_Technologies/emailjs.png"},
+      {"name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png"}
+    ],
+    "thumbnail": "projects/YosraHouas-Portfolio.gif",
+    "github": "https://github.com/yosraAP/YosraHouas-Portfolio",
+    "deployed": "https://yosraap.github.io/YosraHouas-Portfolio/",
+    "dateKey": "projects.items.portfolio.date"
+  },
+  {
+    "id": "4",
+    "titleKey": "projects.items.quiz.title",
+    "descriptionKey": "projects.items.quiz.description",
+    "technologies": [
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "ReactJS", "image": "logo_Technologies/react.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/PolyKnowledge-Quiz.gif",
+    "github": "https://github.com/yosraAP/PolyKnowledge-Quiz",
+    "deployed": "https://yosraap.github.io/PolyKnowledge-Quiz/",
+    "dateKey": "projects.items.quiz.date"
+  },
+  {
+    "id": "5",
+    "titleKey": "projects.items.gradient.title",
+    "descriptionKey": "projects.items.gradient.description",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Vite", "image": "logo_Technologies/vite.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png"},
+      {"name": "Redux Toolkit", "image": "logo_Technologies/redux.png"}
+    ],
+    "thumbnail": "projects/Shade-Sweep-Generator.gif",
+    "github": "https://github.com/yosraAP/Shade-Sweep-Generator",
+    "deployed": "https://yosraap.github.io/Shade-Sweep-Generator/",
+    "dateKey": "projects.items.gradient.date"
+  },
+  {
+    "id": "6",
+    "titleKey": "projects.items.pomodoro.title",
+    "descriptionKey": "projects.items.pomodoro.description",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/pomodoro_timer.gif",
+    "github": "https://github.com/yosraAP/pomodoro-react",
+    "deployed": "https://yosraap.github.io/pomodoro-react/",
+    "dateKey": "projects.items.pomodoro.date"
+  },
+  {
+    "id": "7",
+    "titleKey": "projects.items.econett.title",
+    "descriptionKey": "projects.items.econett.description",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Email.js", "image": "logo_Technologies/emailjs.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"},
+      {"name": "SCSS", "image": "logo_Technologies/scss.png"}
+    ],
+    "thumbnail": "projects/Eco_Nett.gif",
+    "github": "https://github.com/yosraAP/eco_nett_react",
+    "deployed": "https://yosraap.github.io/Demo_App_EcoNett/",
+    "dateKey": "projects.items.econett.date"
+  },
+  {
+    "id": "8",
+    "titleKey": "projects.items.covoiturage.title",
+    "descriptionKey": "projects.items.covoiturage.description",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/java.png"},
+      {"name": "Spring", "image": "logo_Technologies/spring.png"},
+      {"name": "Hibernate", "image": "logo_Technologies/hibernate.png"},
+      {"name": "Thymeleaf", "image": "logo_Technologies/thymeleaf.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/Covoiturage_BdeB.gif",
+    "github": "https://github.com/yosraAP/covoiturage_BdeB_Spring",
+    "deployed": "https://yosraap.github.io/Demo_Covoiturage_BdeB_Spring/",
+    "dateKey": "projects.items.covoiturage.date"
+  },
+  {
+    "id": "9",
+    "titleKey": "projects.items.quizangular.title",
+    "descriptionKey": "projects.items.quizangular.description",
+    "technologies": [
+      {"name": "Angular", "image": "logo_Technologies/angular.png"},
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/QuizApp.gif",
+    "github": "https://github.com/yosraAP/quiz-app-angular",
+    "deployed": "https://yosraap.github.io/quiz-app-angular/",
+    "dateKey": "projects.items.quizangular.date"
+  },
+  {
+    "id": "10",
+    "titleKey": "projects.items.weatherapi.title",
+    "descriptionKey": "projects.items.weatherapi.description",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Axios", "image": "logo_Technologies/axios.png"},
+      {"name": "HTML5", "image": "logo_Technologies/html.png"},
+      {"name": "CSS3", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/weather-app_API.gif",
+    "github": "https://github.com/yosraAP/weather-app_API",
+    "deployed": "https://yosraap.github.io/weather-app_API/",
+    "dateKey": "projects.items.weatherapi.date"
+  },
+  {
+    "id": "11",
+    "titleKey": "projects.items.platexpress.title",
+    "descriptionKey": "projects.items.platexpress.description",
+    "technologies": [
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "Angular", "image": "logo_Technologies/angular.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/PlatExpress.png",
+    "github": "https://github.com/yosraAP/PlatExpress_Angular",
+    "deployed": "https://yosraap.github.io/PlatExpress_Angular/",
+    "dateKey": "projects.items.platexpress.date"
+  },
+  {
+    "id": "12",
+    "titleKey": "projects.items.rentcar.title",
+    "descriptionKey": "projects.items.rentcar.description",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/java.png"},
+      {"name": "Hibernate", "image": "logo_Technologies/hibernate.png"},
+      {"name": "Spring Boot", "image": "logo_Technologies/spring.png"},
+      {"name": "Thymeleaf", "image": "logo_Technologies/thymeleaf.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/RentCar_App.gif",
+    "github": "https://github.com/yosraAP/RentCar",
+    "deployed": "https://yosraap.github.io/RentCar-Demo/",
+    "dateKey": "projects.items.rentcar.date"
+  },
+  {
+    "id": "13",
+    "titleKey": "projects.items.techsphere.title",
+    "descriptionKey": "projects.items.techsphere.description",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/javaServlet.png"},
+      {"name": "JSP", "image": "logo_Technologies/jsp.png"},
+      {"name": "MySQL", "image": "logo_Technologies/mysql.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/TechnoSphere.gif",
+    "github": "https://github.com/yosraAP/TechSphere_codeSource",
+    "deployed": "https://yosraap.github.io/TechSphere-DemoVideo/",
+    "dateKey": "projects.items.techsphere.date"
+  },
+  {
+    "id": "14",
+    "titleKey": "projects.items.filterify.title",
+    "descriptionKey": "projects.items.filterify.description",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/Filterify-Shop-app.gif",
+    "github": "https://github.com/yosraAP/Filterify-Shop-app",
+    "deployed": "https://yosraap.github.io/Filterify-Shop-app/",
+    "dateKey": "projects.items.filterify.date"
+  },
+  {
+    "id": "15",
+    "titleKey": "projects.items.weatherjson.title",
+    "descriptionKey": "projects.items.weatherjson.description",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/Weather-app-json.gif",
+    "github": "https://github.com/yosraAP/Weather-app-json",
+    "deployed": "https://yosraap.github.io/Weather-app-json/",
+    "dateKey": "projects.items.weatherjson.date"
+  },
+  {
+    "id": "16",
+    "titleKey": "projects.items.comparide.title",
+    "descriptionKey": "projects.items.comparide.description",
+    "technologies": [
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/SiteComparatif.gif",
+    "github": "https://github.com/yosraAP/AppComparIDE",
+    "deployed": "https://yosraap.github.io/AppComparIDE/",
+    "dateKey": "projects.items.comparide.date"
+  }
+]

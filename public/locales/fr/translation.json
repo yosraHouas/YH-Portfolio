@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Profil",
+    "skills": "Atouts",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Salut, c'est",
+    "name": "Yosra Houas",
+    "typewriter1": "C# • ASP.NET • ASP.NET Core",
+    "typewriter2": "Applications métiers et back-end",
+    "typewriter3": "Analyse fonctionnelle et technique",
+    "typewriter4": "SQL Server • Entity Framework • SSIS",
+    "typewriter5": "Déploiements et support applicatif",
+    "description": "Analyste-programmeuse .NET spécialisée en développement d'applications métiers. Plus de 6 ans d'expérience en conception, évolution et maintenance de solutions applicatives",
+    "viewCV": "Voir CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Courriel",
+    "learnMore": "En savoir plus sur ce que je fais"
+  },
+  "about": {
+    "title": "Profil",
+    "subtitle": "",
+    "p1": "Analyste-programmeuse .NET, passionnée par le développement d'applications métiers robustes et performantes. Spécialisée en C# et SQL Server, j'accompagne la transformation de besoins métiers complexes en solutions logicielles fiables et maintenables.",
+    "p2": "Mon approche repose sur la rigueur technique, la compréhension fonctionnelle et le souci du détail. J'ai principalement travaillé sur des applications backend avec ASP.NET et Entity Framework, ainsi que sur la conception et l'optimisation de bases de données.",
+    "p3": "Curieuse et autonome, j'utilise également des technologies frontend modernes comme React et TypeScript pour proposer des interfaces claires et intuitives, tout en continuant à approfondir mes compétences sur des projets concrets.",
+    "highlights": {
+      "quality": {
+        "title": "Code de Qualité",
+        "description": "Développement de solutions robustes et maintenables"
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Optimisation et rapidité au cœur de chaque projet"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Travail d'équipe et communication efficace"
+      }
+    }
+  },
+  "skills": {
+    "title": "Atouts",
+    "subtitle": "Technologies et outils que je maîtrise pour créer des solutions performantes",
+    "backend": "Backend .NET",
+    "database": "Bases de Données",
+    "frontend": "Frontend",
+    "devops": "DevOps & Outils"
+  },
+  "projects": {
+    "title": "Projets",
+    "viewProject": "Voir le Projet",
+    "sourceCode": "Code Source",
+    "viewDetails": "Voir les détails",
+    "technology": "Technologie",
+    "items": {
+      "stockpro": {
+        "title": "StockPro",
+        "description": "Application web de gestion complète des stocks et de l'inventaire, aidant les entreprises à gérer les produits, les stocks dans plusieurs entrepôts, les commandes fournisseurs et les mouvements de stock. Offre une traçabilité totale et une visibilité des stocks en temps réel.",
+        "date": "nov 2025"
+      },
+      "dayplanner": {
+        "title": "DayPlanner",
+        "description": "Application web de planification intelligente permettant d'organiser sa journée, gérer les priorités, visualiser les tâches et suivre le temps de travail en temps réel. Réalisée avec React + Vite.",
+        "date": "nov 2025"
+      },
+      "portfolio": {
+        "title": "YosraHouas-Portfolio",
+        "description": "Portfolio réalisé avec React.js, Vite, Tailwind CSS et JavaScript, ce portfolio offre une présentation de mes travaux. De plus, cette application permet également aux utilisateurs de m'envoyer un email directement à partir du site.",
+        "date": "févr 2024"
+      },
+      "quiz": {
+        "title": "PolyKnowledge-Quiz",
+        "description": "Une application de quiz dynamique avec ReactJS, TypeScript, et Styled Components !",
+        "date": "Jan 2024"
+      },
+      "gradient": {
+        "title": "Shade-Sweep-Generator",
+        "description": "Application vous aide à générer un dégradé de couleurs linéaire pouvant comporter jusqu'à six couleurs. Choisissez simplement les couleurs souhaitées et récupérez la syntaxe CSS pour votre projet. Vite + React, Tailwind CSS, Redux Toolkit.",
+        "date": "Déc 2023"
+      },
+      "pomodoro": {
+        "title": "Pomodoro-Timer",
+        "description": "Application qui s'appuie sur la célèbre technique Pomodoro pour favoriser la gestion du temps. Développée avec React et stylisée avec CSS.",
+        "date": "Sep 2023"
+      },
+      "econett": {
+        "title": "Eco_Nett_React",
+        "description": "Application web multilingue pour une entreprise de ménage en utilisant JavaScript, React, Bootstrap et Email.js peut être une excellente idée pour améliorer l'efficacité et l'accessibilité de l'entreprise.",
+        "date": "Août 2023"
+      },
+      "covoiturage": {
+        "title": "Covoiturage_BdeB",
+        "description": "Solution pratique et écologique. Que vous soyez étudiant, enseignant ou membre du personnel, notre plateforme vous permettra de trouver des covoiturages pour vos déplacements.",
+        "date": "Juin 2023"
+      },
+      "quizangular": {
+        "title": "Quiz-app-Angular",
+        "description": "Cette application est un quiz basique développé avec Angular, utilisant principalement TypeScript pour la logique, SCSS pour les styles, HTML pour la structure et une petite portion de JavaScript pour les fonctionnalités supplémentaires.",
+        "date": "Mars 2023"
+      },
+      "weatherapi": {
+        "title": "weather-app_API",
+        "description": "L'application permet aux utilisateurs de vérifier la météo dans le monde entier ainsi que dans leur localisation actuelle. Elle offre également la possibilité d'afficher la température en Fahrenheit ou Celsius.",
+        "date": "févr 2023"
+      },
+      "platexpress": {
+        "title": "Plat-Express-Angular",
+        "description": "Solution pour la commande de repas en ligne. Conçue pour simplifier votre expérience culinaire, cette application se distingue par son interface utilisateur intuitive et sa réactivité, réalisées grâce à l'intégration d'Angular et Bootstrap.",
+        "date": "Jan 2023"
+      },
+      "rentcar": {
+        "title": "RentCar-Spring",
+        "description": "Application de location de voitures basée sur Spring Boot java Hibernate et Thymeleaf. Les fonctionnalités clés de notre application incluent la recherche et la réservation de voitures disponibles et la gestion des réservations.",
+        "date": "Déc 2022"
+      },
+      "techsphere": {
+        "title": "TechSphere",
+        "description": "Application e-commerce conçue pour les passionnés de technologie qui recherchent les dernières innovations. Réalisée à l'aide de Servlets, JSP, Bootstrap, CSS, Java et MySQL.",
+        "date": "Nov 2022"
+      },
+      "filterify": {
+        "title": "Filterify-Shop-app",
+        "description": "Ceci est une application de commerce électronique avec filtres de produits, construite avec HTML, CSS et JavaScript.",
+        "date": "Sept 2022"
+      },
+      "weatherjson": {
+        "title": "Weather-app-json",
+        "description": "Accédez aux prévisions météo pour les 3, 7 ou 14 jours suivants. Découvrez les statistiques clés pour le mois en cours ou à venir. Conçue avec JavaScript, HTML5, CSS3 et Bootstrap.",
+        "date": "juil 2022"
+      },
+      "comparide": {
+        "title": "Site ComparIDE",
+        "description": "Choisissez l'IDE idéal avec facilité : comparez, téléchargez et codez. Notre site, élaboré avec HTML, CSS, JavaScript et Bootstrap, est votre partenaire de développement.",
+        "date": "Mai 2022"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-Moi",
+    "subtitle": "ez-Moi",
+    "heading": "Vous recrutez un profil .NET / C# ?",
+    "description": "Je suis disponible pour échanger sur vos besoins, vos projets ou vos opportunités à Montréal, en mode hybride.",
+    "sendMessage": "Envoyez-Moi Un Message",
+    "name": "Nom & Prénom",
+    "email": "Courriel",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "ENVOYER LE MESSAGE",
+    "sending": "Envoi en cours...",
+    "successTitle": "Message Envoyé!",
+    "success": "Votre message a bien été reçu! Je le consulterai dans mon tableau de bord et vous répondrai personnellement par courriel (houas_yora@hotmail.fr) dans les plus brefs délais. Merci de votre intérêt!",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "close": "Fermer",
+    "followMe": "Suivez-moi sur les réseaux sociaux",
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "phoneValue": "Sur demande",
+      "location": "Localisation"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec",
+    "by": "par"
+  },
+  "chat": {
+    "openChat": "Ouvrir le chat",
+    "close": "Fermer",
+    "title": "Chat en Direct",
+    "welcome": "Bienvenue! Commençons la conversation.",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "Courriel",
+    "emailPlaceholder": "votre@email.com",
+    "startChat": "Démarrer le Chat",
+    "noMessages": "Aucun message pour l'instant. Envoyez le premier!",
+    "messagePlaceholder": "Écrivez votre message...",
+    "send": "Envoyer"
+  }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png"  href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yosra Houas - Portfolio</title>
+    <meta property="og:title" content="Yosra Houas - Portfolio" />
+    <meta property="og:description" content=".NET Developer Analyst specialized in business application development. Over 6 years of experience in C#, ASP.NET, SQL Server." />
+    <meta property="og:image" content="https://yosrahouas.github.io/YH-Portfolio/og-image.png" />
+    <meta property="og:url" content="https://yosrahouas.github.io/YH-Portfolio/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yosra Houas - Portfolio" />
+    <meta name="twitter:description" content=".NET Developer Analyst specialized in business application development" />
+    <meta name="twitter:image" content="https://yosrahouas.github.io/YH-Portfolio/og-image.png" />
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          var basePath = l.pathname.replace(/\/$/, '');
+          window.history.replaceState(null, null,
+              basePath + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

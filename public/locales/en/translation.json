@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Yosra Houas",
+    "typewriter1": "C# • ASP.NET • ASP.NET Core",
+    "typewriter2": "Business applications and back-end",
+    "typewriter3": "Functional and technical analysis",
+    "typewriter4": "SQL Server • Entity Framework • SSIS",
+    "typewriter5": "Deployments and application support",
+    "description": ".NET Developer Analyst specialized in business application development. Over 6 years of experience in design, evolution and maintenance of application solutions",
+    "viewCV": "View CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "learnMore": "Learn more about what I do"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Me",
+    "p1": ".NET Developer Analyst, passionate about developing robust and high-performance business applications. Specialized in C# and SQL Server, I help transform complex business needs into reliable and maintainable software solutions.",
+    "p2": "My approach is based on technical rigor, functional understanding, and attention to detail. I have mainly worked on backend applications with ASP.NET and Entity Framework, as well as on database design and optimization.",
+    "p3": "Curious and autonomous, I also use modern frontend technologies such as React and TypeScript to provide clear and intuitive interfaces, while continuing to deepen my skills on concrete projects.",
+    "highlights": {
+      "quality": {
+        "title": "Quality Code",
+        "description": "Development of robust and maintainable solutions"
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Optimization and speed at the heart of every project"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Teamwork and effective communication"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I master to build performant solutions",
+    "backend": "Backend .NET",
+    "database": "Databases",
+    "frontend": "Frontend",
+    "devops": "DevOps & Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "sourceCode": "Source Code",
+    "viewDetails": "View details",
+    "technology": "Technology",
+    "items": {
+      "stockpro": {
+        "title": "StockPro",
+        "description": "Complete web application for stock and inventory management, helping businesses manage products, stocks in multiple warehouses, supplier orders and stock movements. Offers full traceability and real-time stock visibility.",
+        "date": "Nov 2025"
+      },
+      "dayplanner": {
+        "title": "DayPlanner",
+        "description": "Intelligent planning web application allowing to organize your day, manage priorities, visualize tasks and track work time in real time. Built with React + Vite.",
+        "date": "Nov 2025"
+      },
+      "portfolio": {
+        "title": "YosraHouas-Portfolio",
+        "description": "Portfolio built with React.js, Vite, Tailwind CSS and JavaScript, this portfolio offers a presentation of my work. In addition, this application also allows users to send me an email directly from the site.",
+        "date": "Feb 2024"
+      },
+      "quiz": {
+        "title": "PolyKnowledge-Quiz",
+        "description": "A dynamic quiz application with ReactJS, TypeScript, and Styled Components!",
+        "date": "Jan 2024"
+      },
+      "gradient": {
+        "title": "Shade-Sweep-Generator",
+        "description": "Application helps you generate a linear color gradient that can have up to six colors. Simply choose the desired colors and get the CSS syntax for your project. Vite + React, Tailwind CSS, Redux Toolkit.",
+        "date": "Dec 2023"
+      },
+      "pomodoro": {
+        "title": "Pomodoro-Timer",
+        "description": "Application that relies on the famous Pomodoro technique to promote time management. Developed with React and styled with CSS.",
+        "date": "Sep 2023"
+      },
+      "econett": {
+        "title": "Eco_Nett_React",
+        "description": "Multilingual web application for a cleaning company using JavaScript, React, Bootstrap and Email.js can be an excellent idea to improve the efficiency and accessibility of the company.",
+        "date": "Aug 2023"
+      },
+      "covoiturage": {
+        "title": "Covoiturage_BdeB",
+        "description": "Practical and ecological solution. Whether you are a student, teacher or staff member, our platform will allow you to find carpools for your trips.",
+        "date": "Jun 2023"
+      },
+      "quizangular": {
+        "title": "Quiz-app-Angular",
+        "description": "This application is a basic quiz developed with Angular, mainly using TypeScript for logic, SCSS for styles, HTML for structure and a small portion of JavaScript for additional features.",
+        "date": "Mar 2023"
+      },
+      "weatherapi": {
+        "title": "weather-app_API",
+        "description": "The application allows users to check the weather around the world as well as their current location. It also offers the possibility to display the temperature in Fahrenheit or Celsius.",
+        "date": "Feb 2023"
+      },
+      "platexpress": {
+        "title": "Plat-Express-Angular",
+        "description": "Solution for online food ordering. Designed to simplify your culinary experience, this application stands out for its intuitive and responsive user interface, achieved through the integration of Angular and Bootstrap.",
+        "date": "Jan 2023"
+      },
+      "rentcar": {
+        "title": "RentCar-Spring",
+        "description": "Car rental application based on Spring Boot java Hibernate and Thymeleaf. The key features of our application include searching and booking available cars and managing reservations.",
+        "date": "Dec 2022"
+      },
+      "techsphere": {
+        "title": "TechSphere",
+        "description": "E-commerce application designed for technology enthusiasts looking for the latest innovations. Created using Servlets, JSP, Bootstrap, CSS, Java and MySQL.",
+        "date": "Nov 2022"
+      },
+      "filterify": {
+        "title": "Filterify-Shop-app",
+        "description": "This is an e-commerce application with product filters, built with HTML, CSS and JavaScript.",
+        "date": "Sep 2022"
+      },
+      "weatherjson": {
+        "title": "Weather-app-json",
+        "description": "Access weather forecasts for the next 3, 7 or 14 days. Discover key statistics for the current or upcoming month. Designed with JavaScript, HTML5, CSS3 and Bootstrap.",
+        "date": "Jul 2022"
+      },
+      "comparide": {
+        "title": "Site ComparIDE",
+        "description": "Choose the ideal IDE with ease: compare, download and code. Our site, developed with HTML, CSS, JavaScript and Bootstrap, is your development partner.",
+        "date": "May 2022"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Me",
+    "heading": "Looking for a .NET / C# Profile?",
+    "description": "I am available to discuss your needs, projects, or opportunities in Montreal, in hybrid mode.",
+    "sendMessage": "Send Me A Message",
+    "name": "First & Last name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "SEND MESSAGE",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "success": "Your message has been received! I will review it in my dashboard and personally reply to you via email (houas_yora@hotmail.fr) as soon as possible. Thank you for reaching out!",
+    "error": "An error occurred. Please try again.",
+    "close": "Close",
+    "followMe": "Follow me on social media",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "phoneValue": "Upon request",
+      "location": "Location"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "chat": {
+    "openChat": "Open chat",
+    "close": "Close",
+    "title": "Live Chat",
+    "welcome": "Welcome! Let's start the conversation.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "startChat": "Start Chat",
+    "noMessages": "No messages yet. Send the first one!",
+    "messagePlaceholder": "Type your message...",
+    "send": "Send"
+  }
+}
