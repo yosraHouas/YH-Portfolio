@@ -6,13 +6,18 @@
     <script type="text/javascript">
       var pathSegmentsToKeep = 1;
       var l = window.location;
-      window.location.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+
+      var pathname = l.pathname.slice(1);
+      var segments = pathname.split('/');
+      var basePath = '/' + segments.slice(0, pathSegmentsToKeep).join('/');
+      var route = '/' + segments.slice(pathSegmentsToKeep).join('/');
+
+      var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        basePath + '/?/' + route.replace(/&/g, '~and~') +
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+        l.hash;
+
+      window.location.replace(redirect);
     </script>
   </head>
   <body>
