@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,45 +10,8 @@ import ChatWidget from './components/ChatWidget';
 import AdminDashboard from './components/AdminDashboard';
 import { usePageViewTracker } from './hooks/usePageViewTracker';
 
-function App() {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
-
+function HomePage() {
   usePageViewTracker();
-
-  useEffect(() => {
-    const handleLocationChange = () => {
-      setCurrentPath(window.location.pathname);
-    };
-
-    window.addEventListener('popstate', handleLocationChange);
-
-    const checkInterval = setInterval(() => {
-      if (window.location.pathname !== currentPath) {
-        setCurrentPath(window.location.pathname);
-      }
-    }, 100);
-
-    setTimeout(() => clearInterval(checkInterval), 2000);
-
-    return () => {
-      window.removeEventListener('popstate', handleLocationChange);
-      clearInterval(checkInterval);
-    };
-  }, [currentPath]);
-
-  const basePath = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
-  let normalizedPath = currentPath;
-  if (basePath && currentPath.startsWith(basePath)) {
-    normalizedPath = currentPath.slice(basePath.length);
-  }
-  if (!normalizedPath.startsWith('/')) {
-    normalizedPath = '/' + normalizedPath;
-  }
-  normalizedPath = normalizedPath.replace(/\/$/, '') || '/';
-
-  if (normalizedPath === '/admin' || normalizedPath.startsWith('/admin')) {
-    return <AdminDashboard />;
-  }
 
   return (
     <div className="min-h-screen">
@@ -61,6 +24,17 @@ function App() {
       <Footer />
       <ChatWidget />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
