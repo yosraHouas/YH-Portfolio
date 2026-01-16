@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { BarChart3, Users, Eye, Calendar, ArrowLeft, MessageSquare, Mail, User, CheckCircle2 } from 'lucide-react';
 
@@ -43,6 +44,7 @@ interface ContactMessage {
 }
 
 export default function AdminDashboard() {
+  const navigate = useNavigate();
   const [dailyStats, setDailyStats] = useState<DailyStat[]>([]);
   const [pageStats, setPageStats] = useState<PageStat[]>([]);
   const [totalStats, setTotalStats] = useState<TotalStats>({
@@ -168,7 +170,7 @@ export default function AdminDashboard() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <button
-          onClick={() => window.location.href = '/'}
+          onClick={() => navigate('/')}
           className="mb-8 flex items-center gap-2 text-purple-300 hover:text-white transition-colors"
         >
           <ArrowLeft size={20} />
